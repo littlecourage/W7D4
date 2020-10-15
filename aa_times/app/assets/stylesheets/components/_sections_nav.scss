@@ -1,0 +1,20 @@
+.sections_nav {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        flex-wrap: nowrap;
+        // justify-content: ;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.sections_nav > ul >li:hover{
+    background: $lightest-gray;
+}
