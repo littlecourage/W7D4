@@ -1,3 +1,5 @@
+
+
 <header class="main-nav">
 	<nav class="left-nav">
 		<ul>
@@ -13,9 +15,12 @@
 	</nav>
 	<nav class="right-nav">
 		<ul>
-			<li><button>Subscribe Now! Ahorita!</button></li>
-			<li><button>Login!</button></li>
-			<li><i class="fas fa-cog"></i></li>
+			<li><button>Subscribe Now</button></li>
+			<li><button>Login</button></li>
+			<li id = "gear-dropdown-button">
+				<i class="fas fa-cog"></i>
+				<%= render partial: 'shared/gear_dropdown' %>
+				</li>
 		</ul>
 	</nav>
-</header>
+	</header>

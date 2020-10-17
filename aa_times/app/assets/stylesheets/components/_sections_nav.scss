@@ -1,20 +1,46 @@
 .sections_nav {
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid $light-gray;
 
     ul {
         display: flex;
-        flex-wrap: nowrap;
-        // justify-content: ;
     }
 
-    li {
-        display: flex;
-        justify-content: space-between;
-    }
 }
+
+.sections_nav {
+    > ul {
+        > li {
+            font-family: $sans-serif;
+            font-weight: 500;
+            font-size: 0.75 rem;
+            margin: 8px;
+            padding: 1px;
+        }
+    }
+
+    a {
+        margin: 5px 2px 5px 0;
+    }
+
+    li:last-of-type {
+        text-transform: uppercase;
+        font-size: 0.625rem;
+        align-self: center;
+    }
+
+    li:last-of-type:hover {
+        text-decoration: underline;
+        background: none;
+        cursor: pointer;
+	}
+}
+
+
 
 
 .sections_nav > ul >li:hover{
     background: $lightest-gray;
+    cursor: pointer;
 }

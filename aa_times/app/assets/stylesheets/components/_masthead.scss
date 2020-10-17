@@ -31,6 +31,17 @@
 	ul li:first-child {
 		font-weight: bold;
 	}
+
+	ul li:first-child:hover {
+		font-weight: bold;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	ul li:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
 }
 
 .logo {
@@ -85,7 +96,7 @@
 		color: green;
 	}
 
-	.masthead_linky:hover {
+	.masthead_links:hover {
 		text-decoration: underline;
 		cursor: pointer;
 	}
